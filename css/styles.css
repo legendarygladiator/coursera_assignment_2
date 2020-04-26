@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-size: 16px;
   color: #F283B6;
@@ -75,7 +78,7 @@ div.content-cell{
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-  #boom { 
+  #boom {
     font-size: 1.2em;
     visibility: auto;
     background-color: black;
